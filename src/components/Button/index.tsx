@@ -1,4 +1,6 @@
 import { forwardRef } from "react";
+
+// radix: components
 import { Slot } from "@radix-ui/react-slot";
 
 // types
@@ -12,7 +14,7 @@ const Button = forwardRef<HTMLButtonElement, TButton>(
       <Component
         {...rest}
         ref={ref}
-        className={`${className} flex cursor-pointer items-center justify-center gap-1 rounded-md bg-blue-600 p-2 text-white shadow-md transition-colors`}
+        className={`${className} bg-gradient-to-r from-cyan-500 to-blue-500 flex cursor-pointer items-center justify-center gap-1 rounded-md p-2 text-white shadow-md transition-colors`}
       >
         {children}
       </Component>
