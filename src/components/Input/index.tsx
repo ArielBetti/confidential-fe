@@ -15,7 +15,7 @@ const Input = ({ label, ...rest }: TInput) => {
         </label>
       )}
       <input
-        className="w-full placeholder:text-zinc-500 font-semibold dark:bg-zinc-800 p-2 rounded-md shadow-sm text-xl"
+        className="w-full placeholder:text-zinc-500 dark:bg-zinc-800 p-2 rounded-md shadow-sm text-xl"
         {...rest}
         id={inputId}
         name={inputId}
